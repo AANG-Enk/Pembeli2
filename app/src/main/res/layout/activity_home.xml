@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorCokelat"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/fotohome"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/ic_portrait_black_24dp"/>
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/fotohome"
+        android:hint="Search..."
+        android:background="@drawable/round_edit2"/>
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        mapbox:mapbox_cameraZoom="11" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/fotohome"
+        android:background="@drawable/ic_forum_white_24dp"/>
+
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/ic_forum_white_24dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mapView"/>
+
+
+</RelativeLayout>
