@@ -9,6 +9,7 @@
     tools:context=".Registrasi">
 
     <Button
+        android:id="@+id/btn_Back_Registrasi"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginTop="20dp"
@@ -37,6 +38,7 @@
             android:text="Email"
             android:textColor="@color/colorPutih"/>
         <EditText
+            android:id="@+id/edt_email_Registrasi"
             android:layout_width="310dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
@@ -50,28 +52,18 @@
             android:textColor="@color/colorPutih"
             android:text="Password"/>
         <EditText
+            android:id="@+id/edt_sandi_Registrasi"
             android:layout_width="310dp"
             android:layout_height="50dp"
             android:paddingLeft="18dp"
             android:background="@drawable/round_edit"
             android:layout_gravity="center"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="70dp"
-            android:text="Konfirmasi Password"
-            android:textColor="@color/colorPutih"/>
-        <EditText
-            android:layout_width="310dp"
-            android:layout_height="50dp"
-            android:paddingLeft="18dp"
-            android:background="@drawable/round_edit"
-            android:layout_gravity="center"/>
+
 
     </LinearLayout>
 
     <Button
+        android:id="@+id/btn_daftar_Registrasi"
         android:layout_width="120dp"
         android:layout_height="50dp"
         android:layout_marginTop="40dp"

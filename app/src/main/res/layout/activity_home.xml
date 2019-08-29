@@ -25,13 +25,10 @@
         android:hint="Search..."
         android:background="@drawable/round_edit2"/>
 
-    <com.mapbox.mapboxsdk.maps.MapView
-        android:id="@+id/mapView"
-        android:layout_width="match_parent"
-        android:layout_height="420dp"
-        mapbox:mapbox_cameraZoom="11" />
+
 
     <Button
+        android:id="@+id/btn_message"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginTop="20dp"
@@ -45,7 +42,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/mapView"/>
+        android:layout_below="@+id/btn_message"/>
 
 
 </RelativeLayout>

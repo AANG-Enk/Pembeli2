@@ -30,6 +30,7 @@
             android:text="Email"
             android:textColor="@color/colorPutih"/>
         <EditText
+            android:id="@+id/edt_Login_Login"
             android:layout_width="310dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
@@ -43,6 +44,7 @@
             android:textColor="@color/colorPutih"
             android:layout_marginLeft="70dp"/>
         <EditText
+            android:id="@+id/edt_sandi_login"
             android:layout_width="310dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
